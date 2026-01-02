@@ -2,9 +2,9 @@
 > 基於向量空間模型與代數邏輯的電商推薦引擎
 
 ## 1. Project Overview (專案概述)
-本專案實作了一個基於 **Memory-based Collaborative Filtering** 的推薦系統。針對 **UCI Online Retail Data Set** 中的高維稀疏數據，本系統利用線性代數中的矩陣運算，解決了認知科學中經典的 **「兩匹馬問題」 (Two Horse Problem)** [3][4]，即透過建立個體索引 (Indexing) 來區分不同使用者，並預測其潛在的購買意圖。
+本專案實作了一個基於 **Memory-based Collaborative Filtering** 的推薦系統。針對 **UCI Online Retail Data Set** 中的高維稀疏數據，本系統利用線性代數中的矩陣運算，解決了認知科學中經典的 **「兩匹馬問題」 (Two Horse Problem)** ，即透過建立個體索引 (Indexing) 來區分不同使用者，並預測其潛在的購買意圖。
 
-核心目標在於證明：即使不依賴深度語義理解，透過幾何空間中的 **插值 (Interpolation)** 與 **代數運算 (Algebraic Manipulation)**，系統仍能實現高準確度的行為泛化 [5][6]。
+核心目標在於證明：即使不依賴深度語義理解，透過幾何空間中的 **插值 (Interpolation)** 與 **代數運算 (Algebraic Manipulation)**，系統仍能實現高準確度的行為泛化 。
 
 ## 2. Theoretical Framework (理論架構)
 本系統將使用者行為表徵為 $n$ 維空間中的向量 (Vector Space Model)。
